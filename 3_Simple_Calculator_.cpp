@@ -34,21 +34,16 @@ using namespace std;
 
 int main() {
 
-    int X;
-    cout << "Enter Your First Number : ";
+    int X ;
+    int Y ;
     cin >> X;
-
-    int Y;
-    cout << "Enter Your Second Number : ";
     cin >> Y;
 
-    cout << X + Y << endl;
-    cout << X * Y << endl;
-    cout << X - Y << endl;
+    cout << X << " + " << Y << " = " << X + Y << endl;
+    cout << X << " * " << Y << " = " << X * Y << endl;
+    cout << X << " - " << Y << " = " << X - Y << endl;
 
 
 
     return 0;
 }
-
-
