@@ -1,6 +1,7 @@
 /*
 
 Question: B. Basic Data Types
+
 Problem Statement :
 You are given five space-separated values of the following data types, in this order:
 
