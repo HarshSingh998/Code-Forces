@@ -29,21 +29,18 @@ Be careful with spaces.
 */
 
 
+
 #include <iostream>
 using namespace std;
 
 int main() {
+    long long X, Y;
 
-    int X ;
-    int Y ;
-    cin >> X;
-    cin >> Y;
+    cin >> X >> Y;
 
     cout << X << " + " << Y << " = " << X + Y << endl;
     cout << X << " * " << Y << " = " << X * Y << endl;
     cout << X << " - " << Y << " = " << X - Y << endl;
-
-
 
     return 0;
 }
