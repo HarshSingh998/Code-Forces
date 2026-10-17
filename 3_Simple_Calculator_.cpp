@@ -9,11 +9,9 @@ Given two numbers X and Y, print their:
 2. Multiplication
 3. Subtraction
 
-Input:
-Only one line containing two space-separated numbers X and Y.
+Input: Only one line containing two space-separated numbers X and Y.
 
-Output:
-Print three lines containing the summation, multiplication, and subtraction results in the specified format.
+Output: Print three lines containing the summation, multiplication, and subtraction results in the specified format.
 
 Example Input:
 5 10
@@ -44,3 +42,9 @@ int main() {
 
     return 0;
 }
+
+
+
+
+// - Use int for ordinary integers when the values and calculations fit.
+// - Use long long when values or calculated results might exceed the int range.
