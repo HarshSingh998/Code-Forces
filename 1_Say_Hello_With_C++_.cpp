@@ -18,12 +18,13 @@ using namespace std;
 
 int main() {
 
-    string n;
-    cin >> n;
+    string name;
 
-    cout << "Hello, " << n << endl;
+    cout << "Enter What You Print :  ";
+    cin >> name;
 
-
+    cout << "Hello, " << name << endl;
 
     return 0;
 }
+

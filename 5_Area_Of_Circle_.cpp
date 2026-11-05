@@ -22,17 +22,18 @@ Example Output:
 */
 
 
-
 #include <iostream>
 #include <iomanip>
 using namespace std;
 
 int main() {
+
     double r;
     cout << "Enter Your Radius : ";
     cin >> r;
 
     cout << fixed << setprecision(9);
+    
     cout << "Area Of Circle : " << 3.141592653 * r * r << endl;
 
     return 0;

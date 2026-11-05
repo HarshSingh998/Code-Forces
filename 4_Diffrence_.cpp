@@ -21,7 +21,6 @@ Difference = -10
 */
 
 
-
 #include <iostream>
 using namespace std;
 
@@ -31,10 +30,13 @@ int main() {
 
     cout << "Enter Your First Number : ";
     cin >> A;
+
     cout << "Enter Your Second Number : ";
     cin >> B;
+
     cout << "Enter Your Third Number : ";
     cin >> C;
+    
     cout << "Enter Your Forth Number : ";
     cin >> D;
 

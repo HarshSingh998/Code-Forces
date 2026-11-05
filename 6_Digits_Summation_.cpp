@@ -23,18 +23,24 @@ Therefore, the answer is 3 + 2 = 5.
 */
 
 
-
 #include <iostream>
 using namespace std;
 
 int main() {
+
     long long N, M;
-    cin >> N >> M;
+
+    cout << "Enter First Number: ";
+    cin >> N;
+
+    cout << "Enter Second Number: ";
+    cin >> M;
 
     cout << (N % 10) + (M % 10) << endl;
 
     return 0;
 }
+
 
 
 

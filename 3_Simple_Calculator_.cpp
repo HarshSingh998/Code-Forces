@@ -32,9 +32,14 @@ Be careful with spaces.
 using namespace std;
 
 int main() {
+
     long long X, Y;
 
-    cin >> X >> Y;
+    cout << "Enter First Number: ";
+    cin >> X;
+
+    cout << "Enter Second Number: ";
+    cin >> Y;
 
     cout << X << " + " << Y << " = " << X + Y << endl;
     cout << X << " * " << Y << " = " << X * Y << endl;
@@ -42,6 +47,7 @@ int main() {
 
     return 0;
 }
+
 
 
 

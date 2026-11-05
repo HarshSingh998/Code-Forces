@@ -27,18 +27,19 @@ For N = 10:
 
 
 
-
-
 #include <iostream>
 using namespace std;
 
 int main() {
-    long long N;
-    cin >> N;
 
-    long long sum = N * (N + 1) / 2;
+    long long n;
 
-    cout << sum << endl;
+    cout << "Enter Number: ";
+    cin >> n;
+
+    long long sum = n * (n + 1) / 2;
+
+    cout << "Summation = " << sum << endl;
 
     return 0;
 }
