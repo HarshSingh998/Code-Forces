@@ -38,3 +38,26 @@ A number is a multiple of another number if it is divisible by that number.
 
 
 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int A, B;
+    
+    cout << "Enter Your First Number : " << endl;
+    cin >> A ;
+
+    cout << "Enter Your Second Number : " << endl;
+    cin >> B ;
+
+    if (A % B == 0 || B % A == 0) {
+        cout << "Multiples" << endl;
+    }
+    else {
+        cout << "No Multiples" << endl;
+    }
+
+    return 0;
+}
