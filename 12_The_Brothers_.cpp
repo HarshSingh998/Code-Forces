@@ -48,20 +48,26 @@ NOT
 
 
 #include <iostream>
+#include <string>
 using namespace std;
 
-int main() {
-
+int main()
+{
     string F1, S1, F2, S2;
 
+    cout << "Enter First Person's First Name and Second Name: ";
     cin >> F1 >> S1;
+
+    cout << "Enter Second Person's First Name and Second Name: ";
     cin >> F2 >> S2;
 
-    if (S1 == S2) {
+    if (S1 == S2)
+    {
         cout << "ARE Brothers" << endl;
     }
-    else {
-        cout << "NOT" << endl;
+    else
+    {
+        cout << "NOT Brothers" << endl;
     }
 
     return 0;
