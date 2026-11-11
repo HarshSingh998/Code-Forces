@@ -43,10 +43,10 @@ int main() {
 
     int A, B;
 
-    cout << "Enter Your First Number : " << endl;
+    cout << "Enter Your First Number : " ;
     cin >> A ;
 
-    cout << "Enter Your Second Number : " << endl;
+    cout << "Enter Your Second Number : " ;
     cin >> B ;
 
     if (A >= B) {
