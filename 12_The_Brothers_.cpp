@@ -14,7 +14,6 @@ The two persons are brothers if they share the same second name.
 
 Input:
 First line contains two strings F1 and S1, representing the first and second names of the 1st person.
-
 Second line contains two strings F2 and S2, representing the first and second names of the 2nd person.
 
 Output:
