@@ -44,7 +44,7 @@ using namespace std;
 
 int main()
 {
-    int A, B, K;
+    long long A, B, K;
 
     cout << "Enter First Number: ";
     cin >> A;
